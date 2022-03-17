@@ -29,7 +29,7 @@ if (isset ($_POST['name'])  && isset($_POST['email']) ) {
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header">
-                    <h2>Update person</h2>
+                    <h2>Update customer</h2>
                 </div>
                 <div class="card-body">
                     <?php if(!empty($message)): ?>
@@ -48,7 +48,7 @@ if (isset ($_POST['name'])  && isset($_POST['email']) ) {
                                 class="form-control">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-info">Update person</button>
+                            <button type="submit" class="mt-2 btn btn-info">Update customer</button>
                         </div>
                     </form>
                 </div>
