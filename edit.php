@@ -11,7 +11,7 @@ if (isset ($_POST['name'])  && isset($_POST['email']) ) {
   $sql = 'UPDATE people SET name=:name, email=:email WHERE id=:id';
   $statement = $connection->prepare($sql);
   if ($statement->execute([':name' => $name, ':email' => $email, ':id' => $id])) {
-    header("Location: /");
+    header("Location: index.php");
   }
 
 
