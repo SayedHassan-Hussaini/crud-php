@@ -1,11 +1,6 @@
 # Visual CRUD in PHP
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MYhw4-Bc-oM
-" target="_blank"><img src="https://raw.githubusercontent.com/polodev/youtube-php-crud/master/thumbnail.png" 
-alt="create read update delete - CRUD in php and mysql using Php Data Object - pdo" width="360" border="10" /></a>
-
-
 
 In this video tutorial I have shown how to make a basic crud application in php. I have connected with database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.      
 
