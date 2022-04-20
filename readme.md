@@ -10,7 +10,7 @@ In this video tutorial I have shown how to make a basic crud application in php.
 * You will understand basic php workflow.
 
 ### blah blah blah....
-Don't be scare about the basic command line. Lot of people scare about command line. Actually command line help us to get rid of laborious work a lot. in this video I have used `cd`  for changing directory. `mkdir` for making directory. `touch` for making file. Here `touch` was very handy. I make 5 file in single line command. `touch index.php create.php edit.php delete.php db.php`. If you are windows user use [git bash](https://git-scm.com/) to perform those command.
+Don't be scare about the basic command line. Lot of people scare about  command line. Actually command line help us to get rid of laborious work a lot. in this video I have used `cd`  for changing directory. `mkdir` for making directory. `touch` for making file. Here `touch` was very handy. I make 5 file in single line command. `touch index.php create.php edit.php delete.php db.php`. If you are windows user use [git bash](https://git-scm.com/) to perform those command.
 
 
 ## tuts
