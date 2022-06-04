@@ -24,6 +24,7 @@ CREATE TABLE people (
   name VARCHAR(30) NOT NULL,
   email VARCHAR(30) NOT NULL
 );
+
 ~~~
 ### Database connection
 In `db.php` connect with database by instantiating `PDO`. 
