@@ -42,3 +42,23 @@ b {
   font-weight: inherit;
   color: #c33;
 }
+.minCard{
+ padding-top: 15%;
+}
+.loginCard{
+  margin: auto;
+  width: 30% !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+.loginCard >input {
+  margin-bottom: 10px;
+
+}
+.loginCard > lable{
+  font-weight: 600;
+}
+.headerLogin{
+  text-align: center;
+  font-weight: bold;
+}
