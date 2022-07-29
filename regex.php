@@ -6,7 +6,7 @@
             <?php require 'sidebar.php' ?>
         </div>
         <div class="col-9">
-         <div class="card p-3">
+         <div class="card p-3 mt-5">
             
 <h1>Regular Expersion</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore tenetur quo mollitia perspiciatis fuga, architecto, distinctio vero earum ut officiis quidem! Ullam unde fuga numquam quidem iste laudantium corporis? Animi expedita veniam tempora debitis. Accusamus unde ab veritatis quibusdam voluptatem quam tempora amet praesentium similique, deserunt, laboriosam odit consequatur deleniti.</p>

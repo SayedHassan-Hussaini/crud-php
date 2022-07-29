@@ -29,9 +29,6 @@ session_start();
         
         <lable>Password:</lable>
         <input name="pass" type="password"/>
-
-        <span class="checkbox">Remmber me</span>
-        <input class="remmber" name="remmber" type="checkbox"/>
         
         <button class="btn btn-info">Login</button>
     </form>

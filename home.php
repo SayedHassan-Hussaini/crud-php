@@ -4,9 +4,6 @@ require 'db.php';
 if(isset($_POST['username'])){
     setcookie('username',$_POST['username']);
 };
-if(!isset($_POST['remmber'])){
-    setcookie('remmber',"on");
-};
 $sql = 'SELECT * FROM people';
 $statement = $connection->prepare($sql);
 $statement->execute();
