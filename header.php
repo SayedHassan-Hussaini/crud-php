@@ -16,4 +16,5 @@
 <body class="bg-secondary">
     <nav class="ml-5 navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.php">Home</a>
+        <!-- <button class"btn logout"">Logout</button> -->
     </nav>

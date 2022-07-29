@@ -1,8 +1,8 @@
 <?php 
 session_start();
- if(isset($_COOKIE['remmber'])){
- header('location:home.php');
- }
+//  if(isset($_COOKIE['remmber'])){
+//  header('location:home.php');
+//  }
 ?>
 <!doctype html>
 <html lang="en">
@@ -29,7 +29,7 @@ session_start();
         
         <lable>Password:</lable>
         <input name="pass" type="password"/>
-        
+
         <span class="checkbox">Remmber me</span>
         <input class="remmber" name="remmber" type="checkbox"/>
         
