@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
-    <title>ReGex with php</title>
-</head>
-<body>
-    <h1>Regular Expersion</h1>
+    
+    <?php require 'header.php'; ?>
+
+    <div class="row p-0 m-0">
+        <div class="col-3 m-0 p-0">
+            <?php require 'sidebar.php' ?>
+        </div>
+        <div class="col-9">
+         <div class="card p-3">
+            
+<h1>Regular Expersion</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore tenetur quo mollitia perspiciatis fuga, architecto, distinctio vero earum ut officiis quidem! Ullam unde fuga numquam quidem iste laudantium corporis? Animi expedita veniam tempora debitis. Accusamus unde ab veritatis quibusdam voluptatem quam tempora amet praesentium similique, deserunt, laboriosam odit consequatur deleniti.</p>
     <h4>we want to find <q><i>dolor</i></q> word in above string, if found the preg_match() function will return 1 if not return 0</h4>
     <?php
@@ -51,5 +51,9 @@
     }
 
     ?>
-    </body>
-</html>
+
+         </div>
+        </div>
+       
+    </div>
+<?php require 'footer.php'; ?>

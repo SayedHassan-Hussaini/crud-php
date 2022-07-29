@@ -2,7 +2,7 @@
     <div class="dropdown">
         <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2"
             data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+            <img src="./upload/admin.jpg" alt="" width="32" height="32" class="rounded-circle me-2">
             <strong><?php echo $_COOKIE['username'] ?></strong>
         </a>
         <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
@@ -39,7 +39,7 @@
                             <div class="accordion-body">
                                 <ul class="nav nav-pills flex-column mb-auto">
                                     <li>
-                                        <a href="index.php" class="nav-link link-dark">
+                                        <a href="home.php" class="nav-link link-dark">
                                             <svg class="bi me-2" width="16" height="16">
                                                 <use xlink:href="#table"></use>
                                             </svg>
@@ -67,7 +67,7 @@
                                             <svg class="bi me-2" width="16" height="16">
                                                 <use xlink:href="#table"></use>
                                             </svg>
-                                           Send Email
+                                           Regex Example
                                         </a>
                                     </li>
                                 </ul>

@@ -1,8 +1,6 @@
 <?php
 require 'db.php';
-// if(!$_COOKIE['username']){
-//     header('location:index.php');
-// }
+
 if(isset($_POST['username'])){
     setcookie('username',$_POST['username']);
 };
