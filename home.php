@@ -1,4 +1,5 @@
 <?php
+echo $_GET(['userName'])
 require 'db.php';
 $sql = 'SELECT * FROM people';
 $statement = $connection->prepare($sql);

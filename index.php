@@ -1,3 +1,9 @@
+<?php 
+session_start();
+ if(isset($_COOKIE['remmber'])){
+ header('location:home.php');
+ }
+?>
 <!doctype html>
 <html lang="en">
 
@@ -23,6 +29,10 @@
         
         <lable>Password:</lable>
         <input name="pass" type="password"/>
+        
+        <span class="checkbox">Remmber me</span>
+        <input class="remmber" name="remmber" type="checkbox"/>
+        
         <button class="btn btn-info">Login</button>
     </form>
    </div>
