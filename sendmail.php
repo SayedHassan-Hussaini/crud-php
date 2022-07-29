@@ -9,33 +9,7 @@ require 'vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
-    <title>Document</title>
-</head>
-<body>
-<form method="GET" >    
-        <h1>Send Email by php</h1>
-        <label for="name">receiver name</label>
-        <input type="name" name="name">
-        <label for="email">receiver email</label>
-        <input type="email" name="email">
-        <label for="message">your message</label>
-        <input type="text" name="message">
-        <input type="submit">
-    </form>
-    
-</body>
-</html>
-
-<?php
 if(isset($_GET['email']) && isset($_GET['message']) && isset($_GET['name'])){
     try {
         //Server settings
@@ -70,3 +44,37 @@ if(isset($_GET['email']) && isset($_GET['message']) && isset($_GET['name'])){
     }
 }
 ?>
+<?php require 'header.php'; ?>
+
+<div class="row p-0 m-0">
+    <div class="col-3 m-0 p-0">
+        <?php require 'sidebar.php' ?>
+    </div>
+    <div class="col-9">
+        <div class="container">
+            <div class="card mt-5">
+                <div class="card-header">
+                    <h2>Send Email</h2>
+                </div>
+                <form method="GET"  class="email m-3">    
+                    <div class="form-group mb-1">
+                    <label for="name">receiver name</label>
+                    <input type="name" name="name"  class="form-control">
+                    </div>
+                    <div class="form-group">
+                    <label for="email">receiver email</label>
+                    <input type="email" name="email"  class="form-control">
+                    </div>
+                    <div class="form-group">
+                    <label for="message">your message</label>
+                    <input type="text" name="message"  class="form-control">
+                    </div>
+                    <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-info">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<?php require 'footer.php'; ?>

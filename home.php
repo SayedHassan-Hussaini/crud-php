@@ -1,8 +1,8 @@
 <?php
 require 'db.php';
-if(!$_COOKIE['username']){
-    header('location:index.php');
-}
+// if(!$_COOKIE['username']){
+//     header('location:index.php');
+// }
 if(isset($_POST['username'])){
     setcookie('username',$_POST['username']);
 };
@@ -30,15 +30,18 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
                         <table class="table table-bordered">
                             <tr>
                                 <th>ID</th>
+                                <th>Photo</th>
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Action</th>
                             </tr>
                             <?php foreach($people as $person): ?>
                             <tr>
-                                <td><?= $person->id; ?></td>
+                            <td><?= $person->id; ?></td>
+                            <td> <img class="photo" src='./upload/<?php echo  $person->photo ?>'/> </td>
                                 <td><?= $person->name; ?></td>
                                 <td><?= $person->email; ?></td>
+                               
                                 <td>
                                     <a href="edit.php?id=<?= $person->id ?>" class="btn btn-info">Edit</a>
                                     <a onclick="return confirm('Are you sure you want to delete this entry?')"

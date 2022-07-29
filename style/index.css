@@ -65,3 +65,11 @@ b {
 .remmber{
   display:inline !important;
 }
+.photo{
+  width: 30px;
+  height: 30px;
+}
+.email{
+  padding: 10px;
+  
+}

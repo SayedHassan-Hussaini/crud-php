@@ -54,6 +54,22 @@
                                             Create customer
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="sendmail.php" class="nav-link link-dark">
+                                            <svg class="bi me-2" width="16" height="16">
+                                                <use xlink:href="#table"></use>
+                                            </svg>
+                                           Send Email
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="regex.php" class="nav-link link-dark">
+                                            <svg class="bi me-2" width="16" height="16">
+                                                <use xlink:href="#table"></use>
+                                            </svg>
+                                           Send Email
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

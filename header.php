@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="./style/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./style/index.css">
         <script src="./style/js/poper.js"></script>
         <script src="./style/js/bootstrap.min.js"></script>
 </head>
