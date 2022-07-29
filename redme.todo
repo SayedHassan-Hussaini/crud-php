@@ -1,0 +1,10 @@
+Exam Project:                   @today
+    ✔ Email                         @high @done(22-07-29 11:24)
+    ✔ *session* _and_ ~cookies~     @critical @30m @started(22-07-29 11:24) @done(22-07-29 12:15) @lasted(51m54s)
+    ✔ crud                          @critical @high @70m @started(22-07-29 12:16) @done(22-07-29 15:29) @lasted(3h13m48s)
+    ✔ Regular expression (3 Marks)  @high @done(22-07-29 17:06)
+    ☐ File upload (3 Marks)         @high 
+    ☐ Ajax (3 Marks)                @low 
+    ☐ Pagination (2 Marks)          @low 
+    
+
