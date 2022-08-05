@@ -2,7 +2,7 @@
 
 
 
-In this video tutorial I  have shown how to make a basic crud application in php. I have connected with  database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.      
+In this video tutorial I  have shown how to make  a basic crud application in php. I have connected with  database using php PDO(php data object). Which is database agnostic. You can connect any sql database with this procedure.      
 
 ### Objective of this video
 * You will be able to create, read, update, delete in php
